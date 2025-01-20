@@ -96,7 +96,7 @@ function App() {
 	return (
 		<>
 			<div className="main-div relative p-4 h-[36rem] w-[96%]  mx-auto rounded-xl  flex flex-col md:flex-row ">
-				<div className="inner-div leader-board h-full w-[30%] flex flex-col m-2 rounded-xl border-2 border-gray-300 ">
+				<div className="inner-div leader-board h-full w-full md:w-[30%] flex flex-col m-2 rounded-xl border-2 border-gray-300 ">
 					<h3 className="text-2xl font-bold self-center  ">LeaderBaord</h3>
 					<div className="upper flex justify-around ">
 						<div className="">
@@ -147,7 +147,7 @@ function App() {
 					</div>
 				</div>
 
-				<div className="display h-full w-[70%] m-2 rounded-xl border-2 border-gray-300 ">
+				<div className="display h-full w-full md:w-[70%] m-2 rounded-xl border-2 border-gray-300 ">
 					<h1 className=" h-14 flex justify-center font-bold text-2xl ">
 						Rock-Paper-Scissor
 					</h1>
