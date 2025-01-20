@@ -95,7 +95,7 @@ function App() {
 
 	return (
 		<>
-			<div className="main-div relative p-4 h-[36rem] w-[96%]  mx-auto rounded-xl  flex flex-col md:flex-row ">
+			<div className="main-div relative p-4 h-[36rem] w-[96%]  md:mx-auto rounded-xl  flex flex-col md:flex-row ">
 				<div className="inner-div leader-board h-full w-full md:w-[30%] flex flex-col m-2 rounded-xl border-2 border-gray-300 ">
 					<h3 className="text-2xl font-bold self-center  ">LeaderBaord</h3>
 					<div className="upper flex justify-around ">
@@ -208,7 +208,7 @@ function App() {
 							<p className="text-3xl font-semibold italic">{message}</p>
 						</div>
 
-						<div className="flex flex-row bg-red-200 justify-center border-2 w-[40%] rounded-xl mx-auto mt-4 ">
+						<div className="flex flex-row bg-purple-200 justify-center border-2 w-[40%] rounded-xl mx-auto mt-4 ">
 							{imageVisible && (
 								<>
 									<div className="user-img">
