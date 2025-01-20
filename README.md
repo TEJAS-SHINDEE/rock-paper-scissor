@@ -1,8 +1,18 @@
-# React + Vite
+# Rock Paper Scissor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Rock, Paper, Scissors. The familiar game of Rock, Paper, Scissors is played like this: at the same time, two players display one of three symbols: a rock, paper, or scissors. A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.
 
-Currently, two official plugins are available:
+### How to play 
+1. Players stand opposite each other.
+2. Players count "rock, paper, scissors".
+3. Players simultaneously make a shape with their hand.
+   The winner is determined based on the shapes chosen.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Rules 
+1. Rock: A closed fist
+2. Paper: A flat hand
+3. Scissors: A fist with the index and middle fingers extended, forming a V
+4. Rock beats scissors: Rock is strong enough to break scissors
+5. Scissors beats paper: Scissors can cut paper
+6. Paper beats rock: Paper can cover rock
+7. Tie: If both players choose the same shape
