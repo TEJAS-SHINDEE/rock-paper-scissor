@@ -213,7 +213,7 @@ function App() {
 							<p className="text-3xl font-semibold italic">{message}</p>
 						</div>
 
-						<div className="flex flex-row bg-purple-200 justify-center border-2 w-[40%] rounded-xl mx-auto mt-4 ">
+						<div className="flex flex-row bg-purple-200 justify-center border-2 w-[80%] md:w-[40%] rounded-xl mx-auto mt-4 ">
 							{imageVisible && (
 								<>
 									<div className="user-img">
