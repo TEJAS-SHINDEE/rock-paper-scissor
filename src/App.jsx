@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { SquareUser, LaptopMinimalCheck } from "lucide-react";
+import { MoveRight } from "lucide-react";
 import "./App.css";
 
 function App() {
@@ -99,14 +99,12 @@ function App() {
 				<div className="inner-div leader-board h-full w-full md:w-[30%] flex flex-col m-2 rounded-xl border-2 border-gray-300 ">
 					<h3 className="text-2xl font-bold self-center  ">LeaderBaord</h3>
 					<div className="upper flex justify-around ">
-						<div className="">
 							<img
 								className="h-12 w-12 rounded-full "
 								src="./assets/user.png"
 								alt=""
-							/>{" "}
-						</div>
-						<h2 className="font-bold text-3xl">VS</h2>
+							/>
+						<img className="h-16 w-20" src="./assets/vs.png" alt="" />
 						<img
 							className="h-12 w-12 rounded-full "
 							src="./assets/computer.png"
@@ -126,7 +124,7 @@ function App() {
 						</div>
 					</div>
 					<div>
-						<ul className="m-4 h-[24rem] overflow-auto ">
+						<ul className="m-4 h-[23rem] overflow-auto ">
 							{users.map((user, key) => (
 								<li
 									key="key"
@@ -151,6 +149,13 @@ function App() {
 					<h1 className=" h-14 flex justify-center font-bold text-2xl ">
 						Rock-Paper-Scissor
 					</h1>
+					<div>
+						<div className="flex justify-center gap-4">
+							<span className="flex flex-row items-center bg-green-300 h-8 w-30 rounded-xl p-1"><img className=" h-full w-full object-contain" src="./assets/scissor-hand.png" alt="" /><MoveRight size={25}/><img className="h-full w-full object-contain" src="./assets/paper-hand.png" alt="" /></span>
+							<span className="flex flex-row items-center bg-green-300 h-8 w-30 rounded-xl p-1"><img className="h-full w-full object-contain" src="./assets/paper-hand.png" alt="" /><MoveRight size={25}/><img className="h-full w-full " src="./assets/rock-hand.png" alt="" /></span>
+							<span className="flex flex-row items-center bg-green-300 h-8 w-30 rounded-xl p-1"><img className="h-full w-full" src="./assets/rock-hand.png" alt="" /><MoveRight size={25}/><img className="h-full w-full object-contain" src="./assets/scissor-hand.png" alt="" /></span>
+						</div>
+					</div>
 					<div className="">
 						<div className="flex flex-row justify-evenly">
 							<button
